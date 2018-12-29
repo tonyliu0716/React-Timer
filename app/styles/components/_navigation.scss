@@ -1,0 +1,10 @@
+.top-bar, .top-bar ul {
+    background-color: $nav-background;
+}
+
+// it's the same as .top-bar .menu-text {}
+.top-bar {
+    .menu-text {
+        color: $nav-text-color;
+    }
+}
